@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="cal-contianer">
+        <input type="text" placeholder="0" id="input" class="btn">
+
+
+        <div class="row">
+            <button class="btn" onclick="Show('7')" >7</button>
+            <button class="btn" onclick="Show('8')" >8</button>
+            <button class="btn" onclick="Show('9')" >9</button>
+            <button class="btn" onclick="Show('+')" >+</button>
+        </div>
+        <div class="row">
+            <button class="btn" onclick="Show('4')" >4</button>
+            <button class="btn" onclick="Show('5')" >5</button>
+            <button class="btn" onclick="Show('6')" >6</button>
+            <button class="btn" onclick="Show('-')" >-</button>
+        </div>
+        <div class="row">
+            <button class="btn" onclick="Show('1')" >1</button>
+            <button class="btn" onclick="Show('2')" >2</button>
+            <button class="btn" onclick="Show('3')" >3</button>
+            <button class="btn" onclick="Show('*')" >*</button>
+        </div>
+        <div class="row">
+            <button class="btn" onclick="Show('0')" >0</button>
+            <button class="btn" onclick="Show('.')" >.</button>
+            <button class="btn" onclick="Show('/')" >/</button>
+            <button class="btn" onclick="calculate('=')">=</button>
+        </div>
+        <div class="row">
+            <button class="btn" onclick="Show('00')" >00</button>
+            <button class="btn" onclick="clr('AC')" >AC</button>
+            <button class="btn" onclick="remove('DEL')">DEL</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

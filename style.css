@@ -1,0 +1,43 @@
+.cal-contianer{
+    margin: 3px auto;
+    width: 475px;
+    padding: 10px 10px;
+    background-color: rgb(4, 255, 238);
+    border-radius: 20px;
+    border: 2px solid skyblue;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.btn{
+    width: 100%;
+    font-size: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    background-color: rgb(249, 246, 246);
+    padding: 10px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 6px;
+
+}
+button{
+    font-size: 35px;
+    width: 50%;
+    height: 50%;
+    color: black;
+    justify-content: space-between;
+
+}
+button:hover{
+    background-color:rgb(143, 138, 138);
+}
